@@ -1,0 +1,11 @@
+--- react-router-dom ---
+
+Thêm mới 1 page cần chuẩn bị 2 thứ:
++ path: Đường dẫn
++ component: Page muốn show
+
+// ComponentDidmount: chỉ chạy một lần duy nhất khi render() lần đầu
+
+// ComponentDidUpdate: chạy khi update state
+
+// ComponentWillUnmount: chạy trước khi component bị xóa
